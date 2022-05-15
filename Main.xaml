@@ -1,0 +1,121 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="824,1333.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="475.2,1268.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Password Generator" sap:VirtualizedContainerService.HintSize="433.6,666.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="37f53bd4-3169-4d88-a12e-a283e72e54dc" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,449.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheck Action="Uncheck" DisplayName="Check/Uncheck 'Symbols'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="37f53bd4-3169-4d88-a12e-a283e72e54dc" Version="V1">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" DesignTimeRectangle="1212, 426, 25, 25" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl id='chkSymbols' tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl id='chkSymbols' tag='INPUT' type='checkbox' class='' aaname='' /&gt;" Guid="1434054b-a002-4aec-a4d9-cdd677311a06" InformativeScreenshot="dd2ccfbc9182673a8c98d1001ea18c98.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1242, 420, 115, 34" ElementType="Text" FriendlyName="'Symbols'" FullSelectorArgument="&lt;webctrl aaname='Symbols' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Symbols' tag='DIV' type='' class='chk-label' check:innerText='Symbols' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheck.Target>
+            </uix:NCheck>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Generate new password'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="37f53bd4-3169-4d88-a12e-a283e72e54dc" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" DesignTimeRectangle="1382, 310, 60, 60" ElementType="Button" FriendlyName="'Generate new password'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='pword-button refresh tooltip' aaname='Generate new password' check:text='Generate new password' /&gt;" Guid="6a949133-9f98-49c6-8351-3149a0b1bee4" ImageBase64="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" InformativeScreenshot="11d9b1698724b945ac8b5414fa4649b2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="18868ac63832494e2ddd0e4338fa7cd8.png" Selector="&lt;html app='chrome.exe' title='Password Generator' /&gt;" Url="https://www.rpasamples.com/passwordgenerator" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: Untitled - Notepad" sap:VirtualizedContainerService.HintSize="433.6,469.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="9a3f435b-9553-4d46-9eb3-363fdf91afe4" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="333.6,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V1" />
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2203.10.0_x64__8wekyb3d8bbwe\Notepad\notepad.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATRSURBVFhHtdVbc1NVFAfwvvhQkyfvfgvEL6ADtFCsLaUVW7G0tQoqSkUooha8zvDikw/qkxUdZ4BhpEVAaJqUJFxaoWlD06ZJmmvTFrklqM/LtfY5+2SfuE+yT5Pumf9k5gSyf11rZaVG5TzS9+06TJJe9UfsWD2nY/We1fOKDn5YDgP0qj9ix+o5Hav3rJ7bOkcj/67D5DBwZP4f+jAjn8w9hI9nH8Lh2bzpef/MAzh4i3IfDgTvm977YOou9AXuwD6M+Hzvzdvw7g3KSu6dP1fUK0o4gg1gPg3/Dc7+H4wPJdjhUB4+CuXw+ffGcw77MHgP9k/fA4fwHsH2Td6B9yf/AsfBwnOEAcLg7YllinpFCTaAMMJRxXr9SYZsPDOJsDwcQlz/TA66x+IM2XD6BsIQhzDCUcV2uqMMWX9qgsHeu0m5De0j8wy58cR1xDEY7JlYgt3jS6BfX/5oMA3H28lhhxDWz1r5gFWMVU2Aie0UYXu1VrKK8artoSCMcG9dz6oDi2HUTgYrmjPezv1TGk6EcZwwZ2I7TbA3KdcW1YHinGkwc9WonWbYXdOccZi5av+HMRzCejFvXM2oA63aWTxnfUrtNM/Z7nEOyzJY71UN13PFBtDunBlVU5gz3k5etR5M95U0dPvT6sDScyZvZ7k5K24nwXp0WJc/Bbt8KXWgrJ3PfvGzsb8qzVOfHWdV6xJwnb6kOlA2Z7KLKokIe92LuZxQB8rm7JnPq1jBoz8xWCfBvAnYibjXLsfVgdWaM+3baZ6zXQYsyWAMh79IHRj9+vJHXBuW+8xibZhgkjnj7RRhHZ4FaMfo15c/8n1msTYk+4yvDRFmamcR7FV3DHZg9OvLHzs/T6XWRqGdhTnTcBym40Zj8MpoVB0ogz2Nq0E28KvJE/gl4VUjGKXNFVEHyuZMdlElEWGtI5R5daDs56mqFTwyyGActx1xLZdsAFc3Z8VrQz5nba5C1Qi2HWEtl8Kw7WJYHah9OyX7zGJtmGFxBhO/nbJ2irDmi3PQ/MecOlBlbZTaZxy2owyM4RDWhHn5wqw60Kqdsp8neTsLsOI5M6qmw5oQRrjG8yF1oGzOnsTVIBv41eTxgUHEFWAvUc7NqANlcya7qJI0XghpuHMh2Iq4ht9tAE3t1OesmhV8bOBHVjWCabhbsAWjX1/+2Pl5Kl4b5eaMt1OEbT4bhM3DQXUgwcRvp2xtlNpnfG0Yc2a00wzbQjBMPeLqhqfVgVZrg2B21oZszhjurFY1gtUjrG5oGjYNTakDS+2zcu0kmNjO4jnj7RRhG89QAurALqxeteeMtbMItonBpmDDbwHYOmyjgufHA9Dp4Ti7c1Zop2zOxKoRjOGGAnDS7VcHBoNB8Pl84PV6YWxszBSPxyON2+02Mjo6aorL5TIyMjJiCr1Pn+v32wAmo2FIp9OQTCaNJBIJI/F43MjCwoKRWCxmSjQaNRKJRKShf8f+b9jGov66/XnIJGKwsrICy8vLRpaWlkzJZrNGFhcXjWQyGVPoj+VJpVJG6A+n13hkFo51rFcHflNXC1+9WAtfvrD2oXuObaiF7xoeVQf+ss2RP97sgMGmtQ/dg/fBry2OvH59+XO6zfncyVZn7kSrE9Y6eA+canPm6E79euHU1PwHBiSQobPvwrkAAAAASUVORK5CYII=" InformativeScreenshot="edd0e3b52e29360f6bb3ed60d4ae4c2c.png" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='Untitled - Notepad' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
